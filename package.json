@@ -6,9 +6,9 @@
 	"homepage": "https://xeone971.github.io/webcreator/",
 	"scripts": {
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
+		"deploy": "gh-pages -d dist",
 		"dev": "vite",
-		"build": "node tools/generate-llms.js || true && vite build",
+		"build": "vite build",
 		"preview": "vite preview"
 	},
 	"dependencies": {

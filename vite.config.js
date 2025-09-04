@@ -190,6 +190,7 @@ logger.error = (msg, options) => {
 }
 
 export default defineConfig({
+	base: '/webcreator/',
 	customLogger: logger,
 	plugins: [
 		...(isDev ? [inlineEditPlugin(), editModeDevPlugin()] : []),
