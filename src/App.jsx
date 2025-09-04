@@ -48,17 +48,20 @@ function App() {
     {
 			title: "CYBERBAT",
       category: "Boutique en ligne",
-			description: "Centre de commande sécurisé"
+			description: "Centre de commande sécurisé",
+      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
     },
     {
       title: "Portfolio Créatif",
       category: "Site vitrine",
-      description: "Portfolio interactif"
+      description: "Portfolio interactif",
+      image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca"
     },
     {
 			title: "VideoShorts AI",
       category: "Web App",
-      description: "Dashboard analytique avec visualisations en temps réel"
+      description: "Dashboard analytique avec visualisations en temps réel",
+      image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308"
     }
   ];
 
@@ -249,7 +252,7 @@ function App() {
                     <img  
                       className="w-full h-full object-cover" 
                       alt={`Aperçu du projet ${project.title}`}
-                     src="https://images.unsplash.com/photo-1572177812156-58036aae439c" />
+                     src={project.image} />
                   </div>
                   <div className="p-6">
                     <div className="text-purple-400 text-sm font-medium mb-2">{project.category}</div>
