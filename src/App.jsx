@@ -17,14 +17,14 @@ function App() {
   const handleContactClick = () => {
     toast({
       title: "Contact",
-      description: "🚧 Cette fonctionnalité n'est pas encore implémentée—mais ne vous inquiétez pas ! Vous pouvez la demander dans votre prochaine requête ! 🚀"
+      description: "🚧 Cette fonctionnalité n'est pas encore implémentée—mais ne vous inquiétez pas ! Vous pourrez la retrouver rapidement ! 🚀"
     });
   };
 
   const handleProjectClick = () => {
     toast({
       title: "Projet",
-      description: "🚧 Cette fonctionnalité n'est pas encore implémentée—mais ne vous inquiétez pas ! Vous pouvez la demander dans votre prochaine requête ! 🚀"
+      description: "🚧 Cette fonctionnalité n'est pas encore implémentée—mais ne vous inquiétez pas ! Vous pourrez la retrouver rapidement ! 🚀"
     });
   };
 
