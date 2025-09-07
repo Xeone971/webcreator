@@ -24,11 +24,11 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-purple-500 rounded-full;
+  @apply bg-blue-500 rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-purple-400;
+  @apply bg-blue-400;
 }
 
 /* Glassmorphism effect */

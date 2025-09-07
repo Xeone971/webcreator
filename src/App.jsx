@@ -56,7 +56,7 @@ function App() {
       title: "CYBERBAT",
       category: "Web App",
       description: "Centre de sécurité numérique pédagogique",
-      image: "public/images/cyberbat.png"
+      image: "images/cyberbat.png"
     },
     {
       title: "Portfolio Créatif",
